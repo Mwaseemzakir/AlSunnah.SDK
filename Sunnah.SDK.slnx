@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src\Sunnah.SDK\Sunnah.SDK.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests\Sunnah.SDK.Tests\Sunnah.SDK.Tests.csproj" />
+  </Folder>
+</Solution>

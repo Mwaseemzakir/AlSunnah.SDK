@@ -1,0 +1,24 @@
+[
+    {
+        "HadithNumber": 1,
+        "ArabicText": "حَدَّثَنَا أَبُو نُعَيْمٍ قَالَ حَدَّثَنَا سُفْيَانُ عَنْ مَنْصُورٍ عَنْ إبْرَاهِيمَ عَنْ عَلْقَمَةَ عَنْ عَبْدِ اللَّهِ",
+        "EnglishText": "Narrated 'Abdullah: The Prophet (ﷺ) said, \"Truthfulness leads to righteousness, and righteousness leads to Paradise. And a man keeps on telling the truth until he becomes a truthful person.\"",
+        "BookNumber": 1,
+        "BookName": "Trustworthiness",
+        "BookArabicName": "كتاب الصدق",
+        "Grade": "Sahih",
+        "Reference": "adab:1",
+        "InBookReference": "1:1"
+    },
+    {
+        "HadithNumber": 2,
+        "ArabicText": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ حَدَّثَنَا أَبُو عَوَانَةَ عَنْ أَبِي حَصِينٍ عَنْ أَبِي صَالِحٍ عَنْ أَبِي هُرَيْرَةَ",
+        "EnglishText": "Narrated Abu Huraira: The Messenger of Allah (ﷺ) said, \"A Muslim has six rights over another Muslim: when you meet him, greet him; when he invites you, respond; when he seeks your advice, advise him; when he sneezes and praises Allah, say Yarhamuk Allah; when he is sick, visit him; and when he dies, follow his funeral.\"",
+        "BookNumber": 1,
+        "BookName": "Trustworthiness",
+        "BookArabicName": "كتاب الصدق",
+        "Grade": "Sahih",
+        "Reference": "adab:2",
+        "InBookReference": "1:2"
+    }
+]

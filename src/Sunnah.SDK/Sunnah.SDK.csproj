@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;netstandard2.0;net462</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Title>Sunnah.SDK</Title>
+    <Authors>Muhammad Waseem</Authors>
+    <Description>A comprehensive, high-performance .NET library providing complete read-only access to the major Hadith collections. Includes Sahih al-Bukhari, Sahih Muslim, Sunan Abu Dawud, Jami at-Tirmidhi, Sunan an-Nasa'i, Sunan Ibn Majah, and more — with full Arabic text, English translations, book/chapter navigation, grading metadata, and powerful search capabilities.</Description>
+    <Version>1.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <RepositoryUrl>https://github.com/Mwaseemzakir/Sunnah.SDK</RepositoryUrl>
+    <Copyright>Muhammad Waseem - $([System.DateTime]::Now.Year)</Copyright>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageTags>hadith;sunnah;islam;bukhari;muslim;abu-dawud;tirmidhi;nasai;ibn-majah;islamic;hadith-api;hadith-data;hadith-library</PackageTags>
+    <PackageId>Sunnah.SDK</PackageId>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Data\Resources\*.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNet.ReproducibleBuilds" Version="1.1.1">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0' Or '$(TargetFramework)' == 'net462'">
+    <PackageReference Include="System.Text.Json" Version="8.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>Sunnah.SDK.Tests</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+
+</Project>
